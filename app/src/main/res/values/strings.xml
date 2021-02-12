@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Wheater</string>
+    <string name="city">Bogota</string>
+    <string name="degrees">0º</string>
+    <string name="state">Cloudy</string>
+    <string name="greetings">Welcome to my wheater app. Tap the button to choise the wheater from any city</string>
+    <string name="wheater_bogota">Wheater from Bogota</string>
+    <string name="wheater_medellin">Wheater from Medellin</string>
+</resources>
