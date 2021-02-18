@@ -21,14 +21,12 @@ class MainActivity : AppCompatActivity() {
 
         if(Network.thereIsNetwork(this)){
             // Execute HTTP request
-                Toast.makeText(this, "Hay red", Toast.LENGTH_LONG).show()
-                requestHTTPVolley("https://api.openweathermap.org/data/2.5/weather?id=3674962&appid=d83db4f259a5b6e14bb72ca03f55742d")
+                Toast.makeText(this, "There is network", Toast.LENGTH_LONG).show()
+                requestHTTPVolley("https://api.openweathermap.org/data/2.5/weather?id=$city&appid=d83db4f259a5b6e14bb72ca03f55742d&units=metric&lang=es")
         }else{
             // Show a message
-
+            Toast.makeText(this, "There is not network", Toast.LENGTH_LONG).show()
         }
-
-
     }
 
     private fun requestHTTPVolley(url:String){

@@ -14,14 +14,14 @@ class Cities : AppCompatActivity() {
 
         btnBogota.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra("city","Bogota")
+            intent.putExtra("city","3688689")
             startActivity(intent)
         }
 
         btnMedellin.setOnClickListener {
             Toast.makeText(this,"Medellín", Toast.LENGTH_LONG).show()
             val intent = Intent(this, MainActivity::class.java)
-            intent.putExtra("city","Medellin")
+            intent.putExtra("city","3674962")
             startActivity(intent)
         }
 
